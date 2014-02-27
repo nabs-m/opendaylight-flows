@@ -12,7 +12,7 @@ The “DeleteFlow.py” file is used to delete flows. The parameters needed for 
 By default, the first script creates 2 flows: one on the source node, and one on the destination node. The flows are using generic IPs, and a port number that the user specifies when the script file is called. The second script is deleting these two flows.
 
 All the magic happens in the “OpenDaylight.py” file: this is where the interaction with the controller happens. This library is written by Dale W. Carder from the  University of Wisconsin. Here’s the origin of it:
-http://github.com/dwcarder/python-OpenDaylight\n
+http://github.com/dwcarder/python-OpenDaylight
 This library is outdated though, and I had to bring it up to date to match the current OpenDaylight parameters. So I recommend using the version included in this project instead. You do not need to touch this library if you’re just adding/deleting flows. If you’re going to be interacting with nodes directly (since this library supports it), some updates might be needed to its last class. Feel free to contribute if needed!
 
 For any questions or comments, my name is Nabil Maadarani, and you can reach me via email: nabil.maadarani@hotmail.com
